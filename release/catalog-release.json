@@ -1,10 +1,10 @@
 {
-  "tag": "sms-catalog-20261006",
-  "title": "Master System Catalog: storage v4, first release",
-  "platform": "sms",
-  "catalog_name": "RetroBoxDB.SMS.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-SMS/releases/download/sms-catalog-base-20261006/RetroBoxDB.SMS.Catalog.sqlite",
-  "base_sha256": "1b2f104354d59c03ffb559c5364a31bbbe50d8f62ce6579277ca4f32e6024cb4",
+  "tag": "mastersystem-catalog-20261006-2",
+  "title": "Master System Catalog: naming normalized, one schema for fifteen platforms",
+  "platform": "mastersystem",
+  "catalog_name": "RetroBoxDB.MasterSystem.Catalog.sqlite",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-MasterSystem/releases/download/mastersystem-catalog-base-20261006-2/RetroBoxDB.MasterSystem.Catalog.sqlite",
+  "base_sha256": "6d665a74b1e5add1c20cff8c098ec00cd87f0fcdc156368a58033c0f38e95c5f",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 1523,
@@ -47,8 +47,8 @@
       "sha256": "183b96e1230999d1938859242c23fec262f37868109ebdfb0ef0ac9798922a3a"
     },
     "events": {
-      "rows": 23,
-      "sha256": "98602e10bd48f03554968fec8cba13d743a3078e69ce91a5fbc843d31383fe6e"
+      "rows": 25,
+      "sha256": "12598f392e75a4c334d50f95df13a8e7eb1be5a0c8dab83219022fa8d160699b"
     },
     "fds_hardware": {
       "rows": 0,
@@ -76,7 +76,7 @@
     },
     "frontend_platforms": {
       "rows": 1,
-      "sha256": "3cebba76b2fdcf5bd34c291beea07e1d1a4e0f8a695712da6cd8ee0c21e2ab71"
+      "sha256": "7fc6a74a877383754b0c590a423cd106b5cbb2e851488396696b6b2768386bc5"
     },
     "frontend_profiles": {
       "rows": 1,
@@ -124,7 +124,7 @@
     },
     "meta": {
       "rows": 23,
-      "sha256": "ddb0aff117e7a5df1280f081629866029952f5e6bc0fd4172c3af8493357a817"
+      "sha256": "da03bad242760d2af4384fac8df1dfcd60dd02f76b8ba5d6c0b07a60ab4987c8"
     },
     "naming_decisions": {
       "rows": 1127,
@@ -216,7 +216,7 @@
     },
     "platforms": {
       "rows": 1,
-      "sha256": "5d8b81f286a8772ce425d4b3c8401e97930299ef3570d12e7c060f06d76da5f1"
+      "sha256": "e36115fbace2e341d0d9ed682eeeaab06af8adb6c46e83092ff7acecca6c1960"
     },
     "pokemini_hardware": {
       "rows": 0,
@@ -307,8 +307,8 @@
       "sha256": "22e0a1fcf583b574e9b3861b7b651ee25c4500fcc7b118f6dd41ca0ba4f6bc11"
     },
     "scraper_providers": {
-      "rows": 1,
-      "sha256": "ad358de51eea41e843cd0757449d5bc7ed51b790e76768b9651051451c16bf86"
+      "rows": 2,
+      "sha256": "82920b2b40de7fc602f4f14769e0dd2384f435705a9be8cd4ed08a984c72d37f"
     },
     "sms_hardware": {
       "rows": 1018,
@@ -416,6 +416,10 @@
       "kind": "python",
       "path": "tools/export_nointro_parents.py"
     },
+    "normalize_db.py": {
+      "kind": "python",
+      "path": "tools/normalize_db.py"
+    },
     "tests_v4.py": {
       "kind": "python",
       "path": "tests/test_v4.py"
@@ -448,21 +452,21 @@
       "kind": "json",
       "path": "assessment/data/storage-experiment-satellaview.json"
     },
-    "storage-experiment-sms": {
+    "storage-experiment-mastersystem": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-sms.json"
+      "path": "assessment/data/storage-experiment-mastersystem.json"
     },
-    "storage-experiment-32x": {
+    "storage-experiment-sega32x": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-32x.json"
+      "path": "assessment/data/storage-experiment-sega32x.json"
     },
-    "storage-experiment-ws": {
+    "storage-experiment-wswan": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-ws.json"
+      "path": "assessment/data/storage-experiment-wswan.json"
     },
-    "storage-experiment-wsc": {
+    "storage-experiment-wswanc": {
       "kind": "json",
-      "path": "assessment/data/storage-experiment-wsc.json"
+      "path": "assessment/data/storage-experiment-wswanc.json"
     },
     "storage-experiment-ngp": {
       "kind": "json",
@@ -486,15 +490,15 @@
     },
     "ra-report.json": {
       "kind": "json",
-      "path": "reports/ra-sms.json"
+      "path": "reports/ra-mastersystem.json"
     },
     "ra-report-games.csv": {
       "kind": "csv",
-      "path": "reports/ra-sms-games.csv"
+      "path": "reports/ra-mastersystem-games.csv"
     },
     "ra-report-missing.csv": {
       "kind": "csv",
-      "path": "reports/ra-sms-missing.csv"
+      "path": "reports/ra-mastersystem-missing.csv"
     }
   },
   "repo_tests": [
