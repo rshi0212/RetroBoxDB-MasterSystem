@@ -1,0 +1,14 @@
+{
+ "db": "SMS",
+ "ok": true,
+ "seconds": 15,
+ "integrity_check": [
+  "ok"
+ ],
+ "foreign_key_errors": [],
+ "objects_checked": 1236,
+ "archive_plans_checked": 1523,
+ "compression_groups_checked": 2,
+ "historical_zip_objects": 1523,
+ "errors": []
+}

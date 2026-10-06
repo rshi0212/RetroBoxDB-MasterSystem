@@ -1,0 +1,304 @@
+{
+  "platform": "sms",
+  "started_at": "2026-10-06T07:59:02.029056+00:00",
+  "engine_version": "4.0.0",
+  "dat_sets": [
+    {
+      "id": 1,
+      "name": "Sega - Master System - Mark III (Parent-Clone)",
+      "version": "20260527-203639"
+    },
+    {
+      "id": 2,
+      "name": "Sega - Master System - Mark III (Parent-Clone)",
+      "version": "20260706-223420"
+    },
+    {
+      "id": 3,
+      "name": "Sega - Master System - Mark III (Parent-Clone)",
+      "version": "20260809-210908"
+    },
+    {
+      "id": 4,
+      "name": "Sega - Master System - Mark III (Parent-Clone)",
+      "version": "20260918-065535"
+    }
+  ],
+  "completed_stages": [
+    "dat_import",
+    "rom_import",
+    "scan_diff_catalog",
+    "nointro",
+    "packages",
+    "retroachievements",
+    "game_names"
+  ],
+  "rom_import": {
+    "directories": [
+      "/mnt/MyShare/No-Intro/Sega - Master System - Mark III",
+      "/mnt/MyShare/No-Intro/Sega - Master System - Mark III (Aftermarket)",
+      "/mnt/MyShare/No-Intro/Sega - Master System - Mark III (Private)"
+    ],
+    "families": 754,
+    "family_assignment": {
+      "family_from_dat_or_db": 1669,
+      "family_from_title": 5
+    },
+    "errors": [],
+    "groups": 1,
+    "raw_group_bytes": 241507532,
+    "stored_group_bytes": 64787974,
+    "zips": 1674,
+    "sidecar_files": 0,
+    "seconds": 174
+  },
+  "scan": {
+    "1": {
+      "match": 1191,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 24
+    },
+    "2": {
+      "match": 1191,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 25
+    },
+    "3": {
+      "match": 1191,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 49
+    },
+    "4": {
+      "match": 1189,
+      "mismatch": 0,
+      "unverifiable": 0,
+      "no_candidate": 49
+    }
+  },
+  "dat_diff": {
+    "1->4": {
+      "unchanged": 1199,
+      "added": 25,
+      "renamed": 14,
+      "removed": 2
+    },
+    "2->4": {
+      "unchanged": 1200,
+      "added": 24,
+      "renamed": 14,
+      "removed": 2
+    },
+    "3->4": {
+      "unchanged": 1224,
+      "renamed": 14,
+      "removed": 2
+    }
+  },
+  "catalog": {
+    "games": 774,
+    "releases": 1238,
+    "old_dat_games_linked": 3665,
+    "rom_release_links": 1189
+  },
+  "nointro": {
+    "snapshot_id": 1,
+    "version": "20260918-065535",
+    "archives": 1245,
+    "files": 1279,
+    "files_with_local_payload": 1192,
+    "sources": 3285,
+    "dumplog_rows": 1243,
+    "dat_links": 4906,
+    "archive_release_links": 1238,
+    "hardware_assertions": 367,
+    "dumplog_status": {
+      "verified": 435,
+      "trusted_unverified": 791,
+      "unverified": 15,
+      "no_dump": 2
+    },
+    "anomalies": {
+      "file_without_sha256": 8
+    }
+  },
+  "packages": {
+    "packages_by_dat_set": {
+      "1": 1191,
+      "2": 1191,
+      "3": 1191,
+      "4": 1189
+    },
+    "errors": []
+  },
+  "retroachievements": {
+    "snapshot_id": 1,
+    "console_id": 11,
+    "fetched_at": "2026-10-06T08:02:33.808160+00:00",
+    "games": 425,
+    "hashes": 512,
+    "games_with_achievements": 183,
+    "hashes_of_games_with_achievements": 240,
+    "local_roms_matched": 203,
+    "ra_games_with_local_rom": 180,
+    "dat_entries_matched": 812,
+    "ra_games_in_any_dat": 180,
+    "hashes_with_achievements_unexplained": 37,
+    "by_category_local": {
+      "Hack": 2,
+      "Homebrew": 18,
+      "Homebrew/Prototype": 1,
+      "Official": 150,
+      "Prototype": 1,
+      "Unlicensed": 8
+    }
+  },
+  "game_names": {
+    "source_name": "Sega - Master System - Mark III.csv",
+    "source_sha256": "73855eb9b02b04f24b979e4ffbe8e0093509a546934e780d4af874ae3ed8227c",
+    "normalization_version": "parentheses-whitespace-casefold-v1",
+    "import_id": 1,
+    "matching_version": "game-qualified-title-v1",
+    "rows": 699,
+    "rows_with_chinese": 542,
+    "unique_chinese_names": 342,
+    "normalized_titles": 505,
+    "matched_rows": 697,
+    "matched_rows_with_chinese": 542,
+    "matched_releases": 697,
+    "releases_with_chinese": 542,
+    "matched_games": 441,
+    "matched_roms": 697,
+    "matched_links": 706,
+    "ambiguous_links": 1,
+    "ambiguous_rows": 1,
+    "unmatched_rows": 1,
+    "unresolved_rows": [
+      {
+        "row_number": 15,
+        "name_en": "[BIOS] TecToy Master System Evolution Menu (Brazil)",
+        "name_cn": null,
+        "status": "unmatched"
+      },
+      {
+        "row_number": 577,
+        "name_en": "Super Basketball (USA) (Demo)",
+        "name_cn": null,
+        "status": "ambiguous"
+      }
+    ],
+    "multiple_translation_keys": [],
+    "matched_rows_by_method": {
+      "exact_title": 683,
+      "qualified_title": 14
+    }
+  },
+  "audit": {
+    "integrity_check": [
+      "ok"
+    ],
+    "foreign_key_errors": [],
+    "objects_checked": 1204,
+    "archive_plans_checked": 1470,
+    "compression_groups_checked": 1,
+    "historical_zip_objects": 1470,
+    "ok": true,
+    "errors": []
+  },
+  "stats": {
+    "counts": {
+      "files": 4565,
+      "objects": 2674,
+      "chunks": 2149,
+      "roms": 1198,
+      "dat_sets": 4,
+      "dat_roms": 4909,
+      "transformations": 0,
+      "packages": 4762,
+      "media": 0
+    },
+    "storage": {
+      "logical_content_bytes": 273451208,
+      "historical_zip_bytes_not_stored": 147364330,
+      "unique_raw_chunk_bytes": 245680328,
+      "stored_chunk_bytes": 65379882,
+      "header_body_recipes": 0,
+      "zip_plans": 1470,
+      "file_occurrences": 4565,
+      "catalog_objects": 2674
+    },
+    "dat_coverage": [
+      {
+        "dat_set_id": 1,
+        "status": "matched",
+        "count": 1191
+      },
+      {
+        "dat_set_id": 1,
+        "status": "unmatched",
+        "count": 24
+      },
+      {
+        "dat_set_id": 2,
+        "status": "matched",
+        "count": 1191
+      },
+      {
+        "dat_set_id": 2,
+        "status": "unmatched",
+        "count": 25
+      },
+      {
+        "dat_set_id": 3,
+        "status": "matched",
+        "count": 1191
+      },
+      {
+        "dat_set_id": 3,
+        "status": "unmatched",
+        "count": 49
+      },
+      {
+        "dat_set_id": 4,
+        "status": "matched",
+        "count": 1189
+      },
+      {
+        "dat_set_id": 4,
+        "status": "unmatched",
+        "count": 49
+      }
+    ],
+    "codecs": [
+      {
+        "codec": "group",
+        "blocks": 2142,
+        "raw_bytes": 241507532,
+        "stored_bytes": 0
+      },
+      {
+        "codec": "lzma",
+        "blocks": 7,
+        "raw_bytes": 4172796,
+        "stored_bytes": 591908
+      }
+    ],
+    "storage_schema_version": 4,
+    "compression_groups": {
+      "groups": 1,
+      "raw_bytes": 241507532,
+      "stored_bytes": 64787974
+    },
+    "platform": "sms",
+    "solid_groups": {
+      "groups": 1,
+      "raw_bytes": 241507532,
+      "stored_bytes": 64787974
+    }
+  },
+  "finished_at": "2026-10-06T08:02:53.727269+00:00",
+  "seconds": 233,
+  "database_bytes": 86491136
+}
