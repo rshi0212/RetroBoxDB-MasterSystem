@@ -1,10 +1,10 @@
 {
-  "tag": "mastersystem-catalog-20261006-2",
-  "title": "Master System Catalog: naming normalized, one schema for fifteen platforms",
+  "tag": "mastersystem-catalog-20261006-3",
+  "title": "Master System Catalog: one schema for twenty-three platforms",
   "platform": "mastersystem",
   "catalog_name": "RetroBoxDB.MasterSystem.Catalog.sqlite",
-  "base_url": "https://github.com/rshi0212/RetroBoxDB-MasterSystem/releases/download/mastersystem-catalog-base-20261006-2/RetroBoxDB.MasterSystem.Catalog.sqlite",
-  "base_sha256": "6d665a74b1e5add1c20cff8c098ec00cd87f0fcdc156368a58033c0f38e95c5f",
+  "base_url": "https://github.com/rshi0212/RetroBoxDB-MasterSystem/releases/download/mastersystem-catalog-base-20261006-3/RetroBoxDB.MasterSystem.Catalog.sqlite",
+  "base_sha256": "0dcd76d3bec7b39e61056b284828c30b3ec55db56724f98c262aa05d9bddf102",
   "data_table_sha256": {
     "archive_entries": {
       "rows": 1523,
@@ -47,8 +47,8 @@
       "sha256": "183b96e1230999d1938859242c23fec262f37868109ebdfb0ef0ac9798922a3a"
     },
     "events": {
-      "rows": 25,
-      "sha256": "12598f392e75a4c334d50f95df13a8e7eb1be5a0c8dab83219022fa8d160699b"
+      "rows": 27,
+      "sha256": "74bdf8ac7b921d6a3f0c1039f493b259c4e42512ea7351ee64c5605b7929ad80"
     },
     "fds_hardware": {
       "rows": 0,
@@ -125,6 +125,10 @@
     "meta": {
       "rows": 23,
       "sha256": "da03bad242760d2af4384fac8df1dfcd60dd02f76b8ba5d6c0b07a60ab4987c8"
+    },
+    "msx_hardware": {
+      "rows": 0,
+      "sha256": "d27cf02566368e3887c71b1c9860a2d5c62de09c8015bb24f3231bf92bc79655"
     },
     "naming_decisions": {
       "rows": 1127,
@@ -214,6 +218,10 @@
       "rows": 4762,
       "sha256": "f1773ac0c1107b96853f80d8a0f10bb386e0436cebc1c6d2bb28f45f140da4cc"
     },
+    "pce_hardware": {
+      "rows": 0,
+      "sha256": "89bb45ffcf0a90c76bf0461001f7162856a2170a601a10834156757ce53ef7d5"
+    },
     "platforms": {
       "rows": 1,
       "sha256": "e36115fbace2e341d0d9ed682eeeaab06af8adb6c46e83092ff7acecca6c1960"
@@ -269,6 +277,10 @@
     "repair_attempts": {
       "rows": 0,
       "sha256": "3c642e0d29d1e5dab60d2328c3d565be7c0acc7c70e44cb33566db7e538d7ffa"
+    },
+    "rom_annotations": {
+      "rows": 0,
+      "sha256": "eb081c996d4937ce6fad179a0fb6bd6fce7cbf9dd23a328aa578924ff4d42a61"
     },
     "rom_components": {
       "rows": 1230,
@@ -346,6 +358,10 @@
       "rows": 4762,
       "sha256": "01da18aabd0ab2889cda668e6513c2aac3a034ed1940e915c5d749e1533d79ab"
     },
+    "vb_hardware": {
+      "rows": 0,
+      "sha256": "517f834f0e1aee837276d1e82c4128fdb1d52a002d02af1fa78d1699e19b1b44"
+    },
     "ws_hardware": {
       "rows": 0,
       "sha256": "db3b69505e80a7a046eb7fae0f6d4ba62fa9a50462e32bc8885593fccdf1844d"
@@ -420,6 +436,10 @@
       "kind": "python",
       "path": "tools/normalize_db.py"
     },
+    "msx_route.py": {
+      "kind": "python",
+      "path": "tools/msx_route.py"
+    },
     "tests_v4.py": {
       "kind": "python",
       "path": "tests/test_v4.py"
@@ -479,6 +499,38 @@
     "storage-experiment-pokemini": {
       "kind": "json",
       "path": "assessment/data/storage-experiment-pokemini.json"
+    },
+    "storage-experiment-gamegear": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-gamegear.json"
+    },
+    "storage-experiment-pcengine": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-pcengine.json"
+    },
+    "storage-experiment-supergrafx": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-supergrafx.json"
+    },
+    "storage-experiment-msx1": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-msx1.json"
+    },
+    "storage-experiment-msx2": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-msx2.json"
+    },
+    "storage-experiment-virtualboy": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-virtualboy.json"
+    },
+    "storage-experiment-gameandwatch": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-gameandwatch.json"
+    },
+    "storage-experiment-supracan": {
+      "kind": "json",
+      "path": "assessment/data/storage-experiment-supracan.json"
     },
     "storage-curves": {
       "kind": "json",
