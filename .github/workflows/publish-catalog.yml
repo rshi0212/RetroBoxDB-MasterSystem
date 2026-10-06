@@ -1,4 +1,4 @@
-name: Publish verified SMS Catalog
+name: Publish verified MasterSystem Catalog
 
 on:
   push:
@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: sms-catalog-release
+  group: mastersystem-catalog-release
   cancel-in-progress: false
 
 jobs:
@@ -37,6 +37,6 @@ jobs:
         run: |
           RELEASE_TAG=$(python3 -c 'import json; print(json.load(open("release/catalog-release.json"))["tag"])')
           RELEASE_TITLE=$(python3 -c 'import json; print(json.load(open("release/catalog-release.json"))["title"])')
-          gh release create "$RELEASE_TAG" dist/RetroBoxDB.SMS.Catalog.sqlite dist/SHA256SUMS \
+          gh release create "$RELEASE_TAG" dist/RetroBoxDB.MasterSystem.Catalog.sqlite dist/SHA256SUMS \
             --draft --target "$SOURCE_COMMIT" --title "$RELEASE_TITLE" --notes-file dist/release-notes.md
           gh release edit "$RELEASE_TAG" --draft=false --latest
