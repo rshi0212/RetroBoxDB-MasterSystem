@@ -7,8 +7,8 @@ Single-file SQLite preservation database for Sega Master System / Mark III. The 
 | Item | Value |
 | --- | --- |
 | Original size | 1,875 source ZIPs, 177.4 MiB (No-Intro 1,674, RetroAchievements sets 201); 1,875 ROM files, 392.5 MiB uncompressed |
-| Stored size | populated database 84.7 MiB; public Catalog 18.9 MiB (no ROM data) |
-| Ratio | 47.8% of the source ZIPs, 21.6% of the uncompressed ROM files |
+| Stored size | populated database 84.9 MiB; public Catalog 19.0 MiB (no ROM data) |
+| Ratio | 47.9% of the source ZIPs, 21.6% of the uncompressed ROM files |
 | Technology | storage v4: SHA256-deduplicated 128 KiB blocks packed in No-Intro family order into solid LZMA2 groups of up to 256 MiB (256 MiB dictionary); per-block SHA256 and per-object CRC32/MD5/SHA1/SHA256 verification; source ZIPs reproduced byte-for-byte from TorrentZip plans |
 | Export performance | Intel(R) Core(TM) i7-8650U CPU @ 1.90GHz, idle, Python 3.14.4, all checks included. whole newest-DAT set with `export_set.py` (1,189 files, each checked against the DAT hashes): 43.9 MiB/s, 5 ms per file on average; single file with a cold cache (the group is decoded up to the file): ROM 1.783 s, TorrentZip 1.799 s on average |
 
